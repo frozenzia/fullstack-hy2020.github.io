@@ -310,7 +310,7 @@ Skripit seuraavassa
     // ...
     "build:ui": "rm -rf build && cd ../part2-notes/ && npm run build && cp -r build ../notes-backend",
     "deploy": "fly deploy",
-    "deploy:full": "npm run build:ui && npm run deploy",    
+    "deploy:full": "npm run build:ui && git add . && git commit -m Uibuild && git push && npm run deploy",    
     "logs:prod": "fly logs"
   }
 }
@@ -350,7 +350,7 @@ Herokun tapauksessa skriptit täyttävät seuraavalta
     // ...
     "build:ui": "rm -rf build && cd ../part2-notes/ && npm run build && cp -r build ../notes-backend",
     "deploy": "git push heroku main",
-    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push && npm run deploy",    
+    "deploy:full": "npm run build:ui && git add . && git commit -m Uibuild && git push && npm run deploy",    
     "logs:prod": "heroku logs --tail"
   }
 }
