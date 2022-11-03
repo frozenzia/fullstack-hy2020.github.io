@@ -328,7 +328,7 @@ Huomaa, että skriptissä <i>build:ui</i> olevat polut riippuvat repositorioiden
 flyctl ping -o personal
 ```
 
-koneesi ei jostain (toistaiseksi tuntemattomasta) syytä saa yhteyttä  Fly.io:on. Jos näin käy, [täällä](https://github.com/fullstack-hy2020/misc/blob/master/fly_io_problem.md) kerrotaan eräs tapa edetä.
+koneesi ei jostain (toistaiseksi tuntemattomasta) syystä saa yhteyttä  Fly.io:on. Jos näin käy, [täällä](https://github.com/fullstack-hy2020/misc/blob/master/fly_io_problem.md) kerrotaan eräs tapa edetä.
 
 Onnistuessaan edellisen komennon tulostus näyttää seuraavalta
 
@@ -342,7 +342,7 @@ $ flyctl ping -o personal
 
 #### Heroku
 
-Herokun tapauksessa skriptit täyttävät seuraavalta
+Herokun tapauksessa skriptit näyttävät seuraavalta
 
 ```json
 {
